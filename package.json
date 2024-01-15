@@ -1,0 +1,31 @@
+{
+  "name": "websocket-basic-example",
+  "version": "1.0.0",
+  "description": "websocket basic chat app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "start:dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvolodko/websocket-basic-example.git"
+  },
+  "keywords": [
+    "websocket",
+    "chat"
+  ],
+  "author": "Denys Volodko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvolodko/websocket-basic-example/issues"
+  },
+  "homepage": "https://github.com/dvolodko/websocket-basic-example#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
